@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px; 
-    background-color: #09102C;
+    background-color:#22243D;
 }
 .header-box{
     padding-top: 90px;
@@ -13,7 +13,7 @@ body{
 .header-box h1{
     text-align: center;
     vertical-align: middle;
-    color:#41CD52;
+    color:#EE4540;
     font-weight: lighter;
     text-transform: uppercase;
     font-size: 60px;
@@ -57,7 +57,7 @@ body{
 .header-box a:hover{
     text-decoration: none;
     font-family: 'Segoe UI';
-    border-bottom: 2px solid #41CD52;
+    border-bottom: 2px solid #EE4540;
 }
 .footer-box{
     text-align: center;
@@ -80,11 +80,11 @@ body{
     user-select: none; 
 }
 .btn-download {
-	color: #20bf6b !important;
+	color: #EE4540 !important;
     text-transform: uppercase;
     background: #09102C;
     padding: 20px;
-    border: 2px solid #20bf6b !important;
+    border: 2px solid #EE4540 !important;
     border-radius: 6px;
     display: inline-block;
     margin-left: 20px; margin-right: 20px;
@@ -100,7 +100,7 @@ body{
     transition: all 0.2s ease 0s;
 }
 .text-link{
-    color:#20bf6b;
+    color:#EE4540;
     text-decoration: none;
 }
 .text-link:hover{
