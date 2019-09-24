@@ -1,0 +1,122 @@
+/**
+ * Author: Sinan SALIH
+ * (C) All Rights Reserved
+ *
+**/
+
+
+/** GENERAL WEBSITE THEMING **/
+body{
+    padding-top: 54px;
+    background-color:#F8F9FA;
+    color:#1E1E1E;
+}
+
+.main-holder{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.shadow {
+    border-radius: 2px;
+    box-shadow: 0px 1px 10px #999;
+}
+
+#the-x{
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid #1E1E1E;
+    color: #1E1E1E;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.account-link{
+    color: #1E1E1E;
+    font-weight: lighter;
+    font-size: larger;
+    padding-bottom: 2px;
+    border-bottom :2px solid transparent;
+}
+
+.navbar-toggler-icon {
+    background-image: url('menu.svg?color=000');
+}
+
+.navbar-custom{
+    background-color: #FFFFFF;
+}
+
+
+.divback{
+    background-image: none;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-size: 450px;
+}
+.headfont{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.center-text-inside{
+    text-align: center;
+}
+
+
+.box{
+    min-height: 200px;
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.inner-colored-box{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8f9fa+1,ffffff+100 */
+    background: #f8f9fa; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f8f9fa 1%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f8f9fa 1%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f8f9fa 1%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f9fa', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.fill-color{
+    color: #C62828;
+}
+.noinner{
+    padding: 0;
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+  .divback{
+    background-image: url('code.gif');
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 450px;
+    background-size: 450px;
+    }   
+
+}
+
+
+@keyframes addopaq {
+    0% {
+        border-radius: 2px;
+        box-shadow: 0px 0px 0px #999;
+    }
+    100% {
+       
+    }
+  }
